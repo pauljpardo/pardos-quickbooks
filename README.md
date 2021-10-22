@@ -13,7 +13,26 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 
 
 ```
-https://airtable.com/shrvQBDrTbT3ZUAy9
+{
+    "records": [
+        {
+            "id": "recjy4ZYPgpcZ0beA",
+            "fields": {
+                "Expense": "Car payment",
+                "Price": 200
+            },
+            "createdTime": "2021-10-22T20:37:38.000Z"
+        },
+        {
+            "id": "recr9qpw07jYCJYyv",
+            "fields": {
+                "Expense": "Rent",
+                "Price": 900
+            },
+            "createdTime": "2021-10-22T20:37:38.000Z"
+        }
+    ]
+}
 ```
 
 ### MVP/PostMVP

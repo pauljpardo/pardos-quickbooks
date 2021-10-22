@@ -54,8 +54,14 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 
 ## Project Schedule
 
-
-
+| Day      | Deliverable                                | Status   |
+| -------- | ------------------------------------------ | -------- |
+| Oct 24   | Basic Setup / Planning                     | In Progress |
+| Oct 25-26| Component Creation / Get, Set, Delete Data | In Progress |
+| Oct 27   | CSS Components                             | In Progress |
+| Oct 28   | Post MVP/ Finishing Touches                | In Progress |
+| Oct 29   | Presentation                               | In Progress |
+ 
 ## Time Frames
 
 

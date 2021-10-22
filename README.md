@@ -24,16 +24,16 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 #### MVP
 
 [] Setup Basic Homepage <br />
-[] Setup Airtable 
-[] Connect app to api
-[] Setup get request to retrieve list/money values
-[] Setup Post request input/submit to the list 
-[] Create components (Nav bar/Extracurricular expenses)
-[] CSS Styling
+[] Setup Airtable <br />
+[] Connect app to api <br />
+[] Setup get request to retrieve list/money values <br />
+[] Setup Post request input/submit to the list <br />
+[] Create components (Nav bar/Extracurricular expenses) <br />
+[] CSS Styling <br />
 
 
 #### PostMVP
-[] Add investment page?
+[] Add investment page? <br />
 [] Put request/edit 
 
 ## Project Schedule

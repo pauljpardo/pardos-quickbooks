@@ -7,7 +7,7 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 
 ## Wireframes || Component Hierarchy
 
-![image](https://user-images.githubusercontent.com/68570980/138519612-58bce3cd-c2f8-4e00-86e4-fb137adf13e4.png)
+![image](https://user-images.githubusercontent.com/68570980/138614752-aed2b306-23cb-44b2-8863-8323c46c89c6.png)
 
 ## API and Data Sample
 

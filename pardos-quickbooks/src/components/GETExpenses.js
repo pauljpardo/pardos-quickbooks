@@ -4,6 +4,7 @@ const GetExpenses = ({expData}) => {
     <div>
       <p>{expData.fields.Expense}</p>
       <p>${expData.fields.Price}</p>
+      <p>{ expData.fields.seller }</p>
     </div>
   )
 }

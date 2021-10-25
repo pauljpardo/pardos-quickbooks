@@ -1,6 +1,8 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import GetExpenses from './components/GETExpenses'
+import PostExpenses from './components/PostExpenses'
+
 /*
 Budget App
   What is needed:
@@ -45,16 +47,22 @@ function App() {
     
   }, []);
 
-
+  
 
   return (
     <div>
+      <PostExpenses
+      />
+
+      <hr />
       {expenseList.map((getExpenses) => (
       
         <GetExpenses
           key={getExpenses.id}
           expData={getExpenses}
         />
+
+
       ))}
 
     </div>

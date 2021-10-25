@@ -50,7 +50,7 @@ function App() {
   return (
     <div>
       {expenseList.map((getExpenses) => (
-       // <><p key={expenses.id}>{expenses.fields.Expense}</p> <p key={expenses.id}>${expenses.fields.Price}</p></>
+      
         <GetExpenses
           key={getExpenses.id}
           expData={getExpenses}

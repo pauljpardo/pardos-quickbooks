@@ -47,8 +47,6 @@ function App() {
     
   }, []);
 
-  
-
   return (
     <div>
       <PostExpenses
@@ -61,7 +59,6 @@ function App() {
           key={getExpenses.id}
           expData={getExpenses}
         />
-
 
       ))}
 

@@ -27,17 +27,18 @@ Form
  - get request will be inside the useEffect 
  
 */
-
+const API_URL= 'https://api.airtable.com/v0/appIyBV0aECOah3WC/Table%201?api_key=keyp7EhQcdEAhoxyV'
 
 
 function App() {
   const [expenseList, setExpenseList] = useState([])
+  const [toggleFetch, setToggleFetch] = useState(false)
   
 
   useEffect(() => {
 
     const getExpenses = async () => {
-      const resp = await axios.get('https://api.airtable.com/v0/appIyBV0aECOah3WC/Table%201?api_key=keyp7EhQcdEAhoxyV');
+      const resp = await axios.get(API_URL);
       console.log(resp.data.records)
       setExpenseList(resp.data.records);
     }
@@ -49,7 +50,9 @@ function App() {
 
   return (
     <div>
-      <PostExpenses
+      <PostExpenses 
+        setToggleFetch={setToggleFetch}
+        // Expense={Expense}
       />
 
       <hr />

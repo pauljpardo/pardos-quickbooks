@@ -49,7 +49,9 @@ function App() {
 
   return (
     <div>
-      
+      {expenseList.map((item) => (
+        <><p key={item.id}>{item.fields.Expense}</p> <p key={item.id}>${item.fields.Price}</p></>
+      ))}
 
     </div>
   );

@@ -41,8 +41,8 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 
 [] Setup Basic Homepage <br />
 [x] Setup Airtable <br />
-[] Connect app to api <br />
-[] Setup get request to retrieve list/money values <br />
+[x] Connect app to api <br />
+[x] Setup get request to retrieve list/money values <br />
 [] Setup Post request input/submit to the list <br />
 [] Create components (Nav bar/Extracurricular expenses) <br />
 [] CSS Styling <br />
@@ -63,14 +63,14 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 | Oct 29   | Presentation                               | In Progress |
  
 ## Time Frames
-| Component                 | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      4hrs      |     3hrs      |    3 hrs    |
-| Airtable setup            |    H     |     1 hrs      |   0.5hrs      |    0.5 hrs  |
-| Planning/setup            |    H     |      4hrs      |     N/A      |    N/A     |
-| Review Material           |    H     |      5hrs      |     N/A      |    N/A     |
-| Data population homepage  |    H     |      6hrs      |     N/A      |   N/A    |
-| Form creation for homepage|    H     |      5hrs      |     N/A      |    N/A     |
-| Component CSS pg 1        |    H     |      5hrs      |     N/A      |    N/A     |
-| Total                     |    H     |      30hrs     |     N/A     |    N/A    |
+| Component                 | Priority | Estimated Time | Time Invested |
+| ------------------------- | :------: | :------------: | :-----------: |
+| Proposal                  |    H     |      4hrs      |     3hrs      |
+| Airtable setup            |    H     |     1 hrs      |   0.5hrs      |
+| Planning/setup            |    H     |      4hrs      |     5hrs      |
+| Review Material           |    H     |      5hrs      |     N/A      |
+| Data population homepage  |    H     |      6hrs      |     N/A      |
+| Form creation for homepage|    H     |      5hrs      |     N/A      |
+| Component CSS pg 1        |    H     |      5hrs      |     N/A      |
+| Total                     |    H     |      30hrs     |     N/A      |
 

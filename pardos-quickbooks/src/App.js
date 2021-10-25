@@ -1,8 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
-
+import GetExpenses from './components/GETExpenses'
 /*
-
 Budget App
   What is needed:
     - input form to add expenses
@@ -24,6 +23,7 @@ Form
 
 
  - get request will be inside the useEffect 
+ 
 */
 
 
@@ -49,8 +49,12 @@ function App() {
 
   return (
     <div>
-      {expenseList.map((item) => (
-        <><p key={item.id}>{item.fields.Expense}</p> <p key={item.id}>${item.fields.Price}</p></>
+      {expenseList.map((getExpenses) => (
+       // <><p key={expenses.id}>{expenses.fields.Expense}</p> <p key={expenses.id}>${expenses.fields.Price}</p></>
+        <GetExpenses
+          key={getExpenses.id}
+          expData={getExpenses}
+        />
       ))}
 
     </div>

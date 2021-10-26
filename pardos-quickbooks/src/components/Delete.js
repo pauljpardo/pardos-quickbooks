@@ -6,16 +6,22 @@ Need ID
 */
 
 import axios from "axios"
+
+
 const API_URL = 'https://api.airtable.com/v0/appIyBV0aECOah3WC/Table%201?api_key=keyp7EhQcdEAhoxyV'
 
-const DeleteExpense = ({expData}) => {
+const DeleteExpense = ({ expData, toggleFetch, setToggleFetch }) => {
+  
 
-console.log('delete expense')
-
-    await axios.delete(API_URL)
+  const deleteAxios = async () => {
+    console.log(expData)
+    await axios.delete(API_URL + `&records[]=${expData.id}`)
+    // setToggleFetch(!toggleFetch)
+  }
+  //  await axios.delete()
   
   return (
-  <button onClick={DeleteExpense}>Delete</button>
+  <button onClick={deleteAxios}>Delete</button>
 )
 
 }

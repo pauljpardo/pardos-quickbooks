@@ -1,7 +1,7 @@
 // Get req Html
 import DeleteExpense from "./Delete"
 
-const GetExpenses = ({ expData }) => {
+const GetExpenses = ({ expData, toggleFetch, setToggleFetch }) => {
  
 
   return (
@@ -10,8 +10,13 @@ const GetExpenses = ({ expData }) => {
       <p>${expData.fields.Price}</p>
       <p>{expData.fields.seller}</p>
       <p>{expData.fields.date}</p>
+      
       <DeleteExpense
+        expData={expData}
+        toggleFetch={toggleFetch}
+        setToggleFetch={setToggleFetch}
       />
+
     </div>
   )
 }

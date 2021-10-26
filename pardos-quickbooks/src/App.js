@@ -2,6 +2,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import GetExpenses from './components/GETExpenses'
 import PostExpenses from './components/PostExpenses'
+import DeleteExpense from './components/Delete'
 
 /*
 Budget App
@@ -28,7 +29,7 @@ Form
  
 */
 const API_URL= 'https://api.airtable.com/v0/appIyBV0aECOah3WC/Table%201?api_key=keyp7EhQcdEAhoxyV'
-
+                
 
 function App() {
   const [expenseList, setExpenseList] = useState([])
@@ -46,24 +47,22 @@ function App() {
     getExpenses();
     console.log('Expense list')
     
-  }, []);
+  }, [toggleFetch]);
 
   return (
     <div>
       <PostExpenses 
-        setToggleFetch={setToggleFetch}
-        // Expense={Expense}
       />
 
       <hr />
       {expenseList.map((getExpenses) => (
-      
         <GetExpenses
           key={getExpenses.id}
           expData={getExpenses}
         />
+      )
 
-      ))}
+)}
 
     </div>
   );

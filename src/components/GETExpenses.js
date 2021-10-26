@@ -6,11 +6,11 @@ const GetExpenses = ({ expData, toggleFetch, setToggleFetch }) => {
 
   return (
     <div className='get-request-list'>
-      <p>{expData.fields.Expense}</p>
+      <h3>{expData.fields.Expense}</h3>
       <p>${expData.fields.Price}</p>
       <p>{expData.fields.seller}</p>
       <p>{expData.fields.date}</p>
-      
+
       <DeleteExpense
         expData={expData}
         toggleFetch={toggleFetch}

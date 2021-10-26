@@ -51,7 +51,9 @@ function App() {
 
   return (
     <div>
-      <PostExpenses 
+      <PostExpenses
+        toggleFetch={toggleFetch}
+        setToggleFetch={setToggleFetch}
       />
 
       <hr />
@@ -59,6 +61,8 @@ function App() {
         <GetExpenses
           key={getExpenses.id}
           expData={getExpenses}
+          toggleFetch={toggleFetch}
+          setToggleFetch={setToggleFetch}
         />
       )
 

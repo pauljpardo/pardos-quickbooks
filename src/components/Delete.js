@@ -21,7 +21,7 @@ const DeleteExpense = ({ expData, toggleFetch, setToggleFetch }) => {
   //  await axios.delete()
   
   return (
-  <button onClick={deleteAxios}>Delete</button>
+  <button onClick={deleteAxios}>X</button>
 )
 
 }

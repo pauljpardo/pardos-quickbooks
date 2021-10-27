@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 const API_URL = 'https://api.airtable.com/v0/appIyBV0aECOah3WC/Table%201?api_key=keyp7EhQcdEAhoxyV'
 
-const PostExpenses = ({Expense, Price, seller, date, toggleFetch, setToggleFetch}) => {
+const PostExpenses = ({Expense, Price, seller, date, toggleFetch, setToggleFetch, expData}) => {
   const [postExpense, setPostExpense] = useState('')
   const [postPrice, setPostPrice] = useState('')
   const [postSeller, setPostSeller] = useState('')
@@ -33,10 +33,8 @@ const PostExpenses = ({Expense, Price, seller, date, toggleFetch, setToggleFetch
     setToggleFetch(!toggleFetch);
 
 
-  //   const handlePutReq = async (ev) => {
-  //     ev.preventDefault();
-  //     const 
-  // }
+    
+  
     // props.setToggleFetch((curr) => !curr);
     // setPostExpense('')
     // setPostPrice(0)

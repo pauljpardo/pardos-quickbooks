@@ -7,6 +7,24 @@
   pointer-events: none;
 }
 
+body {
+  background-color: forestgreen;
+  color: white
+}
+
+table {
+
+}
+
+td, th {
+  border: 1px dotted #FFFFFF;
+ padding: 1rem;
+}
+
+.title {
+  text-align: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

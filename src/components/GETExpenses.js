@@ -12,6 +12,7 @@ const GetExpenses = ({ expData, toggleFetch, setToggleFetch }) => {
   const [putDate, setPutDate] = useState(expData.fields.date)
  
   return (
+    
     <tr className='get-request-list'>
 
     
@@ -48,9 +49,8 @@ const GetExpenses = ({ expData, toggleFetch, setToggleFetch }) => {
           setPutPrice={setPutPrice}
             />
       </Route>
-</td>
-
-    </tr>
+  </td>
+</tr>
   )
 }
 

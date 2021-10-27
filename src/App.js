@@ -2,6 +2,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import GetExpenses from './components/GETExpenses'
 import PostExpenses from './components/PostExpenses'
+import './App.css'
 /*
 Budget App
   What is needed:

@@ -56,6 +56,7 @@ function App() {
       />
 
       <hr />
+      <div className='table-container'>
       <table>
          <tr>
           <th>Expense</th>
@@ -78,7 +79,8 @@ function App() {
       )
 
 )}
-        </table>    
+        </table>
+        </div>
     </div>
   );
 }

@@ -47,7 +47,7 @@ const PostExpenses = ({Expense, Price, seller, date, toggleFetch, setToggleFetch
   return (
     <div className='title'>
       <h2> Pardo's Quickbooks ™</h2>
-    <form onSubmit={ handleSubmit } >
+    <form className='form' onSubmit={ handleSubmit } >
       <label htmlFor='Expense'>Expense: </label>
       <input type='text' id='Expense' value= {Expense} onChange={(ev) => setPostExpense(ev.target.value)} />
 

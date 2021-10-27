@@ -10,8 +10,7 @@ const GetExpenses = ({ expData, toggleFetch, setToggleFetch }) => {
   const [putPrice, setPutPrice] = useState(expData.fields.Price)
   const [putSeller, setPutSeller] = useState(expData.fields.seller)
   const [putDate, setPutDate] = useState(expData.fields.date)
-
-//.map 
+ 
   return (
     <tr className='get-request-list'>
 
@@ -23,19 +22,18 @@ const GetExpenses = ({ expData, toggleFetch, setToggleFetch }) => {
       
 
       
-      <td>
-      <Link to='/EditExpense'>
-         <button>Edit</button>
+<td>
+      <Link to={`/EditExpense/${expData.id}`}>
+        <button>Edit</button> 
       </Link>
-      </td>
-      
+
       <DeleteExpense
         expData={expData}
         toggleFetch={toggleFetch}
         setToggleFetch={setToggleFetch}
       />
 
-      <Route path='/EditExpense' exact>
+      <Route path={`/EditExpense/${expData.id}`} exact>
          <EditExpense
           expData={expData}
           toggleFetch={toggleFetch}
@@ -50,7 +48,7 @@ const GetExpenses = ({ expData, toggleFetch, setToggleFetch }) => {
           setPutPrice={setPutPrice}
             />
       </Route>
-
+</td>
 
     </tr>
   )

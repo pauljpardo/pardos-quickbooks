@@ -62,24 +62,17 @@ function App() {
           <th>Seller</th>
           <th>Date</th>
         </tr>
-         {/* <tr>
-          <td></td>
-           <td>$100</td>
-         </tr>
-         <tr>
-         <td>February</td>
-        <td>$80</td>
-         </tr> */}
-
         
       {expenseList.map((getExpenses) => (
+        
         
         <GetExpenses
           key={getExpenses.id}
           expData={getExpenses}
           toggleFetch={toggleFetch}
           setToggleFetch={setToggleFetch}
-        />
+          />
+          
         
       )
 

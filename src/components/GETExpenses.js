@@ -13,16 +13,22 @@ const GetExpenses = ({ expData, toggleFetch, setToggleFetch }) => {
 
 //.map 
   return (
-    <div className='get-request-list'>
-      <h3>{expData.fields.Expense}</h3>
-      <p>${expData.fields.Price}</p>
-      <p>{expData.fields.seller}</p>
-      <p>{expData.fields.date}</p>
+    <tr className='get-request-list'>
 
+    
+        <td>{expData.fields.Expense}</td>
+        <td>${expData.fields.Price}</td>
+        <td>{expData.fields.seller}</td>
+        <td>{expData.fields.date}</td>
+      
+
+      
+      <td>
       <Link to='/EditExpense'>
          <button>Edit</button>
       </Link>
-
+      </td>
+      
       <DeleteExpense
         expData={expData}
         toggleFetch={toggleFetch}
@@ -42,13 +48,11 @@ const GetExpenses = ({ expData, toggleFetch, setToggleFetch }) => {
           setPutDate={setPutDate}
           setPutSeller={setPutSeller}
           setPutPrice={setPutPrice}
-
-
             />
       </Route>
 
 
-    </div>
+    </tr>
   )
 }
 

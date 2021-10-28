@@ -17,12 +17,15 @@ body {
   border-radius: 5px;
   padding: 5px;
 }
-h2{
+
+h2 {
   display: flex;
   align-items: flex-start;
 }
+
 table {
-  background-color: #55a630
+  background-color: #55a630;
+  padding: 5px;
 }
 
 .form {

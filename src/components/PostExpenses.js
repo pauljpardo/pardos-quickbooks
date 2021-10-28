@@ -32,17 +32,6 @@ const PostExpenses = ({Expense, Price, seller, date, toggleFetch, setToggleFetch
   
     await axios.post(API_URL, newExpensePost);
     setToggleFetch(!toggleFetch);
-
-
-    
-  
-    // props.setToggleFetch((curr) => !curr);
-    // setPostExpense('')
-    // setPostPrice(0)
-    // setPostSeller('')
-    // setPostDate('')
-
-  console.log('form submitted?')
 }
 
   return (

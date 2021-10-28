@@ -14,7 +14,6 @@ const DeleteExpense = ({ expData, toggleFetch, setToggleFetch }) => {
   
 
   const deleteAxios = async () => {
-    console.log(expData)
     await axios.delete(API_URL + `&records[]=${expData.id}`)
     setToggleFetch(!toggleFetch)
   }

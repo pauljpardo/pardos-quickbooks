@@ -45,12 +45,12 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 [x] Setup get request to retrieve list/money values <br />
 [x] Setup Post request input/submit to the list <br />
 [] Create components (Nav bar/Extracurricular expenses) <br />
-[] CSS Styling <br />
+[x] CSS Styling <br />
 
 
 #### PostMVP
 [] Add investment page? <br />
-[] Put request/edit 
+[x] Put request/edit 
 
 ## Project Schedule
 

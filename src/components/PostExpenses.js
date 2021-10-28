@@ -2,6 +2,7 @@
 
 import axios from 'axios'
 import { useState } from 'react'
+import Header from './Header'
 
 const API_URL = 'https://api.airtable.com/v0/appIyBV0aECOah3WC/Table%201?api_key=keyp7EhQcdEAhoxyV'
 
@@ -46,7 +47,9 @@ const PostExpenses = ({Expense, Price, seller, date, toggleFetch, setToggleFetch
 
   return (
     <div className='title'>
-      <h2> Pardo's Quickbooks ™</h2>
+      <Header
+      />
+       
     <form className='form' onSubmit={ handleSubmit } >
       <label htmlFor='Expense'>Expense: </label>
       <input type='text' id='Expense' value= {Expense} onChange={(ev) => setPostExpense(ev.target.value)} />

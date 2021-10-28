@@ -3,18 +3,32 @@
 } */
 
 body {
-  background-color: forestgreen;
+  background-image: url('pool_table.png');
   color: white
+
 }
 .table-container {
   display: flex;
   justify-content: center;
+  
+}
+
+#Expense , #Price , #seller, #date{
+  border-radius: 5px;
+  padding: 5px;
+}
+h2{
+  display: flex;
+  align-items: flex-start;
+}
+table {
+  background-color: #55a630
 }
 
 .form {
-  background-color: #440066 ;
-  padding: 0 50px;
-  margin: 0 230px;
+  
+  padding: 0 60px;
+  margin: 0 220px;
 }
 
 td, th {
@@ -24,5 +38,6 @@ td, th {
 
 .title {
   text-align: center;
+  
 }
 

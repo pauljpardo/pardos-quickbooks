@@ -35,10 +35,10 @@ const PostExpenses = ({Expense, Price, seller, date, toggleFetch, setToggleFetch
 }
 
   return (
-    <div className='title'>
+    <div className='header-and-form'>
       <Header
       />
-       
+       <div className='form-div'>
     <form className='form' onSubmit={ handleSubmit } >
       <label htmlFor='Expense'>Expense: </label>
       <input type='text' id='Expense' value= {Expense} onChange={(ev) => setPostExpense(ev.target.value)} />
@@ -54,7 +54,7 @@ const PostExpenses = ({Expense, Price, seller, date, toggleFetch, setToggleFetch
 
       
       <input type='submit' />
-      </form>
+      </form> </div>
       </div>
   )
 }

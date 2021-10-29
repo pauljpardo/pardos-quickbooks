@@ -49,6 +49,7 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 
 #### PostMVP
 [x] Put request/edit 
+[x] images
 
 ## Project Schedule
 
@@ -57,8 +58,8 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 | Oct 24   | Basic Setup / Planning                     | Done  |
 | Oct 25-26| Component Creation / Get, Put              | Done |
 | Oct 27   | CSS Components                             | Done |
-| Oct 28   | Post MVP/ Finishing Touches                | In Progress |
-| Oct 29   | Presentation                               | In Progress |
+| Oct 28   | Post MVP/ Finishing Touches                | Done |
+| Oct 29   | Presentation                               | Done |
  
 ## Time Frames
 | Component                 | Priority | Estimated Time | Time Invested |
@@ -66,9 +67,22 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 | Proposal                  |    H     |      4hrs      |     3hrs      |
 | Airtable setup            |    H     |     1 hrs      |   0.5hrs      |
 | Planning/setup            |    H     |      4hrs      |     5hrs      |
-| Review Material           |    H     |      5hrs      |     N/A      |
-| Data population homepage  |    H     |      6hrs      |     N/A      |
-| Form creation for homepage|    H     |      5hrs      |     N/A      |
-| Component CSS pg 1        |    H     |      5hrs      |     N/A      |
-| Total                     |    H     |      30hrs     |     N/A      |
+| Review Material           |    H     |      5hrs      |     5hrs   |
+| Data population homepage  |    H     |      6hrs      |     6hrs     |
+| Form creation for homepage|    H     |      5hrs      |     4hrs     |
+| Component CSS pg 1        |    H     |      5hrs      |    8hrs     |
+| Total                     |    H     |      30hrs     |     31.5     |
 
+## SWOT Analysis
+
+### Strengths:
+React Responsiveness, Put form/edit button 
+
+### Weaknesses:
+CSS
+
+### Opportunities:
+Lots of opportunities to improve this project, adding nav bar, ads, resources for budgeting, total row.
+
+### Threats:
+Table size is difficult to reframe for media query 

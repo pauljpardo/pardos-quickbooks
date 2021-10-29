@@ -71,17 +71,24 @@ td, th {
   display: flex;
   width: 500px;
   height: 400px;
-  margin: 0 auto;
- justify-content: center;
+  margin: 10px auto;
+  justify-content: center;
   
 }
 .img-1 {
  width: 40vw;
  height: auto;
-
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 375px){
 
-
+.table-div {
+  width: 100px;
+  height: auto;
+  margin-top: 110px;
+}
+.img-1 {
+  width: 300px;
+  height: auto;
+}
 }

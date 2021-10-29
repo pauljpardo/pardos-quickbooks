@@ -30,7 +30,7 @@ function App() {
         setToggleFetch={setToggleFetch}
       />
 
-      <hr />
+      <hr className='line'/>
       
         <div className='table-div'><table>
           <tbody>

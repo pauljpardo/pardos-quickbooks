@@ -91,4 +91,9 @@ td, th {
   width: 300px;
   height: auto;
 }
+
+.line {
+  border-color: transparent;
+}
+
 }

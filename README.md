@@ -44,21 +44,19 @@ Pardo's Quickbooks is based on a budgeting app. One you can use to keep track of
 [x] Connect app to api <br />
 [x] Setup get request to retrieve list/money values <br />
 [x] Setup Post request input/submit to the list <br />
-[] Create components (Nav bar/Extracurricular expenses) <br />
 [x] CSS Styling <br />
 
 
 #### PostMVP
-[] Add investment page? <br />
 [x] Put request/edit 
 
 ## Project Schedule
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Oct 24   | Basic Setup / Planning                     | In Progress |
-| Oct 25-26| Component Creation / Get, Put              | In Progress |
-| Oct 27   | CSS Components                             | In Progress |
+| Oct 24   | Basic Setup / Planning                     | Done  |
+| Oct 25-26| Component Creation / Get, Put              | Done |
+| Oct 27   | CSS Components                             | Done |
 | Oct 28   | Post MVP/ Finishing Touches                | In Progress |
 | Oct 29   | Presentation                               | In Progress |
  

@@ -8,6 +8,11 @@ body {
 
 }
 
+/* .highest-div {
+  
+  
+} */
+
 .table-div {
   display: flex;
   justify-content: center;
@@ -48,7 +53,7 @@ table {
 
 .form {
   padding: 0 60px;
-  margin: 0 220px;
+  margin: 0 20px;
 }
 
 td, th {
@@ -67,12 +72,14 @@ td, th {
   width: 500px;
   height: 400px;
   margin: 10px;
-
+  max-width: min-content;
+  
 }
 .img-1 {
-
+ justify-content: center;
 }
 
-@media screen and (max-width: 468px){
+@media screen and (max-width: 640px){
+
 
 }

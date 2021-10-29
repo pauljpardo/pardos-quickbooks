@@ -77,7 +77,8 @@ td, th {
 }
 .img-1 {
  width: 40vw;
- 
+ height: 0;
+
 }
 
 @media screen and (max-width: 640px){

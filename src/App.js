@@ -32,7 +32,8 @@ function App() {
 
       <hr />
       <div className='table-container'>
-      <table>
+        <table>
+          <tbody>
          <tr>
           <th>Expense</th>
           <th>Price</th>
@@ -40,7 +41,7 @@ function App() {
             <th>Date</th>
             <th>Edit/Delete</th>
           </tr>
-          
+          </tbody>
         
       {expenseList.map((getExpenses) => (
         

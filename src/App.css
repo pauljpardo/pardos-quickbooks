@@ -76,7 +76,8 @@ td, th {
   
 }
 .img-1 {
- justify-content: center;
+ width: 40vw;
+ 
 }
 
 @media screen and (max-width: 640px){
